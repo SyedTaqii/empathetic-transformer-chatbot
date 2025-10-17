@@ -6,11 +6,11 @@ This repository was created as a submission for the "Project 02: Empathetic Conv
 
 Live Demo
 
-The chatbot is deployed on Streamlit Cloud and is publicly accessible:
+The chatbot is deployed on Streamlit Cloud and is publicly accessible.
 
->> Launch the Chatbot Demo <<
+>> [Launch the Chatbot Demo](https://empathetic-transformer-chatbot-taqii-tallal.streamlit.app/) <<
 
-(Note: Please replace the URL above with your actual Streamlit deployment link.)
+(Note: Please replace the URL above with your actual public Streamlit link.)
 
 Features
 
@@ -54,9 +54,9 @@ Dropout Rate: 0.1
 
 Dataset
 
-The model was trained on the Empathetic Dialogues dataset provided by Facebook AI. The dataset contains over 25,000 conversations grounded in emotional situations.
+The model was trained on the Empathetic Dialogues dataset provided by Facebook AI. The dataset contains thousands of conversations grounded in emotional situations.
 
-Source: Kaggle - Empathetic Dialogues
+Source: Kaggle - [Empathetic Dialogues](https://www.kaggle.com/datasets/atharvjairath/empathetic-dialogues-facebook-ai)
 
 Data Split: The data was split into 80% for training, 10% for validation, and 10% for testing.
 
@@ -76,12 +76,12 @@ Installation
 
 Clone the repository:
 
-git clone [https://github.com/your-username/empathetic-transformer-chatbot.git](https://github.com/your-username/empathetic-transformer-chatbot.git)
+git clone [https://github.com/SyedTaqii/empathetic-transformer-chatbot.git](https://github.com/SyedTaqii/empathetic-transformer-chatbot.git)
 cd empathetic-transformer-chatbot
 
 
 Install Git LFS:
-Make sure Git LFS is installed. You can download it from git-lfs.github.com. After installing, run:
+Make sure Git LFS is installed. You can download it from git-lfs.github.com. After installing, initialize it with:
 
 git lfs install
 
@@ -107,8 +107,12 @@ streamlit run app.py
 
 The application should open automatically in your web browser at http://localhost:8501.
 
-Other Deliverables
+Project Deliverables
 
-Evaluation Report: Link to Evaluation Report (Placeholder)
+This repository contains the primary deliverables:
 
-Blog Post Draft: Link to Medium Blog Post (Placeholder)
+Full Source Code (app.py and notebooks).
+
+Deployed Chatbot Demo (linked above).
+
+Blog Post: https://medium.com/@taqisyed141/empathetic-ai-chatbot-from-scratch-6306e9e64e9a 
